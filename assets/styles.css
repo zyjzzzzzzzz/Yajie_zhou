@@ -137,3 +137,13 @@ a { color: inherit; }
   .social-row { grid-template-columns: 1fr; }
   .project, .pub-block, .timeline-item, .reflection { padding: 20px; }
 }
+.pub-title {
+  font-weight: 800;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.pub-title:hover {
+  color: var(--accent-dark);
+  text-decoration: underline;
+}
