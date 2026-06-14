@@ -76,7 +76,7 @@ a { color: inherit; }
 }
 .hero-content { padding-top: 10px; }
 .eyebrow { color: var(--accent-dark); font-weight: 800; text-transform: uppercase; letter-spacing: 0.12em; font-size: 0.78rem; margin: 0 0 12px; }
-.hero-content h2 { font-size: clamp(2.2rem, 5vw, 4.2rem); line-height: 1.05; margin: 0 0 24px; letter-spacing: -0.06em; }
+.hero-content h2 { font-size: clamp(1.9rem, 4vw, 3.4rem); line-height: 1.12; margin: 0 0 24px; letter-spacing: -0.045em; }
 .lead { font-size: 1.16rem; color: #334155; }
 .cta-row { display: flex; flex-wrap: wrap; gap: 14px; margin: 28px 0; }
 .skills, .tag-row { display: flex; flex-wrap: wrap; gap: 10px; }
