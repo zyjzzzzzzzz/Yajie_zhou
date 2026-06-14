@@ -137,13 +137,49 @@ a { color: inherit; }
   .social-row { grid-template-columns: 1fr; }
   .project, .pub-block, .timeline-item, .reflection { padding: 20px; }
 }
+
+.publication-list {
+  padding-left: 22px;
+  margin: 0;
+}
+
+.publication-list li {
+  margin-bottom: 24px;
+  padding-left: 2px;
+}
+
 .pub-title {
+  display: inline-block;
   font-weight: 800;
   color: var(--text);
   text-decoration: none;
+  line-height: 1.55;
 }
 
-.pub-title:hover {
+a.pub-title:hover {
   color: var(--accent-dark);
+  text-decoration: underline;
+}
+
+.pub-meta {
+  margin-top: 5px;
+  color: var(--text);
+  line-height: 1.5;
+}
+
+.pub-doi {
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.pub-doi a {
+  color: var(--accent-dark);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.pub-doi a:hover {
   text-decoration: underline;
 }
