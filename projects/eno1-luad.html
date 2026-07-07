@@ -3,44 +3,59 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ENO1-LUAD project summary by Yajie Zhou — cancer bioinformatics, single-cell and spatial transcriptomics, tumor metabolism." />
   <title>ENO1-LUAD Project | Yajie Zhou</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../assets/styles.css" />
 </head>
+
 <body>
   <header class="site-header">
     <nav class="navbar container">
       <a class="brand" href="../index.html">Yajie Zhou</a>
       <div class="nav-links open-on-desktop">
         <a href="../index.html#research">Back to research</a>
+        <a class="button button-small" href="/Yajie_zhou/docs/Yajie_Zhou_CV.pdf" target="_blank" rel="noopener noreferrer">CV</a>
       </div>
     </nav>
   </header>
+
   <main class="container section">
     <p class="eyebrow">Ongoing project summary</p>
-    <h1>ENO1-associated metabolic epithelial states in LUAD</h1>
-    <p class="lead">This page is designed as a short, PI-readable research summary rather than a full manuscript.</p>
+    <h1>ENO1-associated metabolic epithelial states in lung adenocarcinoma</h1>
+    <p class="lead">
+      A PI-readable summary of an ongoing cancer bioinformatics project integrating bulk transcriptomics,
+      single-cell RNA-seq, spatial transcriptomics, and validation-oriented analysis.
+    </p>
 
-    <article class="project featured" style="grid-template-columns:1fr;">
+    <article class="project featured project-with-image">
       <section>
         <h2>Research question</h2>
-        <p>How are mitophagy-associated metabolic programs organized across malignant epithelial states and spatial tumor niches in lung adenocarcinoma?</p>
+        <p>
+          How are ENO1-associated mitophagy and metabolic programs organized across malignant epithelial states
+          and spatial tumor niches in lung adenocarcinoma?
+        </p>
+
         <h2>Approach</h2>
         <ul>
-          <li>Bulk RNA-seq survival modeling and external validation.</li>
+          <li>Bulk RNA-seq survival modeling and external validation using public LUAD cohorts.</li>
           <li>WGCNA and pathway integration to prioritize candidate hub genes.</li>
-          <li>scRNA-seq integration, epithelial subclustering, and pseudotime analysis.</li>
-          <li>Spatial transcriptomics deconvolution and spatial co-localization assessment.</li>
-          <li>CellChat-based ligand–receptor inference as hypothesis generation.</li>
+          <li>scRNA-seq integration, epithelial subclustering, cell-state annotation, and pseudotime analysis.</li>
+          <li>Spatial transcriptomics analysis to evaluate ENO1-associated tumor niches and spatial co-localization.</li>
+          <li>CellChat-based ligand–receptor inference for hypothesis generation.</li>
+          <li>RT-qPCR and future functional experiments as validation-oriented next steps.</li>
         </ul>
+
         <h2>Key findings</h2>
         <ul>
           <li>ENO1 emerged as a candidate hub linking mitophagy-associated transcriptional programs and metabolic reprogramming.</li>
-          <li>ENO1 was enriched in an epithelial state associated with glycolysis, hypoxia, and MYC-target signatures.</li>
-          <li>Spatial transcriptomics suggested co-localization of ENO1-high regions with a specific epithelial tumor niche.</li>
+          <li>ENO1-high expression was enriched in malignant epithelial states with glycolytic, hypoxic, and MYC-target features.</li>
+          <li>Spatial transcriptomics suggested co-localization between ENO1-high regions and specific epithelial tumor niches.</li>
+          <li>The project generated testable hypotheses about ENO1, tumor metabolism, mitophagy, and tumor–microenvironment remodeling.</li>
         </ul>
+
         <h2>Limitations and next steps</h2>
         <ul>
           <li>Current evidence is primarily computational and association-based.</li>
@@ -50,6 +65,11 @@
           <li>Future experiments could test ENO1 perturbation effects on mitophagy flux, glycolysis, mitochondrial stress, and tumor–stromal interactions.</li>
         </ul>
       </section>
+
+      <aside class="project-side figure-side">
+        <img src="../assets/eno1-mechanism.png" alt="Mechanism figure for ENO1-associated metabolic epithelial states in LUAD" loading="lazy" />
+        <p class="figure-caption">Mechanism figure / graphical abstract</p>
+      </aside>
     </article>
   </main>
 </body>
