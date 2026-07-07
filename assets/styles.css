@@ -203,15 +203,13 @@ a {
   margin: 28px 0;
 }
 
-.skills,
-.tag-row {
+.skills {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
 }
 
-.skills span,
-.tag-row span {
+.skills span {
   background: var(--accent-soft);
   color: var(--accent-dark);
   border: 1px solid rgba(15, 118, 110, 0.12);
@@ -219,6 +217,11 @@ a {
   padding: 7px 12px;
   font-size: 0.9rem;
   font-weight: 700;
+}
+
+/* Hide project tags in research cards */
+.project-main > .tag-row {
+  display: none;
 }
 
 .section {
@@ -331,6 +334,13 @@ a {
   overflow: hidden;
 }
 
+.figure-link {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  cursor: zoom-in;
+}
+
 .figure-side img {
   width: 100%;
   max-height: 430px;
@@ -338,6 +348,12 @@ a {
   border-radius: 16px;
   background: #ffffff;
   border: 1px solid var(--line);
+  transition: transform 0.22s ease, box-shadow 0.22s ease;
+}
+
+.figure-link:hover img {
+  transform: scale(1.03);
+  box-shadow: 0 14px 32px rgba(15, 23, 42, 0.16);
 }
 
 .figure-caption {
