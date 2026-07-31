@@ -311,14 +311,29 @@ a {
 
 /* Contact */
 .contact {
-  text-align:center;
+  text-align: left;
+  max-width: none;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.contact .section-heading {
+  margin-left: 0;
+  margin-right: 0;
+  text-align: left;
+}
+
+.contact .section-heading h2,
+.contact .section-heading .eyebrow,
+.contact p {
+  text-align: left;
 }
 
 .contact-links {
-  display:flex;
-  justify-content:center;
-  flex-wrap:wrap;
-  gap:12px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 12px;
 }
 
 /* Mobile */
