@@ -176,7 +176,7 @@ a {
 }
 
 .hero-content h2 {
-  font-size:clamp(1.7rem,3vw,3rem);
+  font-size:clamp(1.4rem,3vw,2.6rem);
   line-height:1.18;
   letter-spacing:-0.045em;
   margin:10px 0 25px;
