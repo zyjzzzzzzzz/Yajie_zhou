@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Yajie Zhou — Computational cancer biologist investigating tumor cell-state plasticity, metabolic reprogramming, spatial tumor ecosystems, and tumor–microenvironment interactions through integrative multi-omics." />
-  <title>Yajie Zhou | Computational Cancer Biology</title>
+  <meta name="description" content="Yajie Zhou — Clinically trained cancer researcher studying malignant cell-state plasticity, metabolic adaptation, and tumor–microenvironment interactions through single-cell and spatial omics." />
+  <title>Yajie Zhou | Cancer Cell States & Tumor Microenvironment</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -21,9 +21,9 @@
         <a href="#research">Research</a>
         <a href="#publications">Publications</a>
         <a href="#experience">Experience</a>
-        <a href="#reflection">Reflection</a>
+        <a href="#approach">Research Approach</a>
         <a href="#contact">Contact</a>
-        <a class="button button-small" href="/Yajie_zhou/docs/Yajie_Zhou_CV.pdf" target="_blank" rel="noopener noreferrer">CV</a>
+        <a class="button button-small" href="docs/Yajie_Zhou_CV.pdf" target="_blank" rel="noopener noreferrer">CV</a>
       </div>
     </nav>
   </header>
@@ -47,32 +47,36 @@
       </aside>
 
       <section class="hero-content">
-        <p class="eyebrow">PhD applicant profile · Cancer Biology / Computational Biology</p>
+        <p class="eyebrow">PhD applicant · Cancer Biology / Translational Oncology</p>
 
-        <h2>Clinically trained researcher investigating tumor evolution through computational cancer biology </h2>
+        <h2>Clinically trained cancer researcher studying malignant cell states and their tumor ecosystems</h2>
 
         <p class="lead">
-          I am a clinically trained researcher studying how malignant cell states, metabolic programs, and tumor microenvironmental ecosystems shape cancer progression and therapeutic response. My research applies computational cancer biology approaches, integrating bulk RNA-seq, single-cell RNA-seq, spatial transcriptomics, and experimental validation to uncover biologically interpretable mechanisms of tumor evolution.
+          I study how metabolic and microenvironmental pressures shape malignant cell-state plasticity and therapeutic response.
+          My work integrates bulk, single-cell, and spatial transcriptomics to identify clinically relevant tumor states and
+          develop hypotheses that can be tested through functional experiments.
         </p>
 
         <p>
-          My clinical training provides a translational perspective for studying cancer mechanisms and clinically relevant tumor states.
-          During graduate training, I developed integrative multi-omics approaches to investigate malignant epithelial states,
-          metabolic reprogramming, and tumor–microenvironment interactions.
+          My training in clinical medicine and surgery gives me a translational perspective on cancer biology. During my master's
+          research, I investigated malignant epithelial states, metabolic adaptation, and tumor–microenvironment interactions in
+          lung adenocarcinoma. For doctoral training, I hope to connect computationally identified states with causal mechanisms,
+          lineage context, and treatment response.
         </p>
 
         <div class="cta-row">
           <a class="button" href="#research">View research projects</a>
-          <a class="button button-secondary" href="#reflection">Methodological reflection</a>
+          <a class="button button-secondary" href="#approach">Research approach</a>
         </div>
 
         <div class="skills" aria-label="Core skills">
-          <span>Computational cancer biology</span>
-          <span>Bulk RNA-seq</span>
+          <span>Malignant cell states</span>
+          <span>Cancer metabolism</span>
+          <span>Tumor microenvironment</span>
           <span>Single-cell RNA-seq</span>
           <span>Spatial transcriptomics</span>
+          <span>Bulk RNA-seq</span>
           <span>Multi-omics integration</span>
-          <span>Tumor microenvironment</span>
           <span>R</span>
           <span>Reproducible research</span>
         </div>
@@ -84,8 +88,9 @@
         <p class="eyebrow">Selected research</p>
         <h2>Research Projects</h2>
         <p>
-          My projects focus on clinically motivated questions in cancer bioinformatics, with emphasis on transcriptomics,
-          single-cell and spatial data integration, tumor heterogeneity, and translational interpretation.
+          My work has progressed from clinically motivated biomarker studies toward a central question: how do lineage context,
+          metabolic stress, and local cellular interactions create and sustain malignant states? I use transcriptomic analyses to
+          define these states and their niches, while treating functional validation as the essential next step.
         </p>
       </div>
 
@@ -93,31 +98,30 @@
         <article class="project featured project-with-image">
           <div class="project-main">
             <p class="status">Manuscript under review</p>
-            <h3>ENO1-Associated Mitophagy–Metabolism Crosstalk and Tumor Microenvironment Remodeling in Lung Adenocarcinoma</h3>
+            <h3>An ENO1-high malignant epithelial state in the spatial ecosystem of lung adenocarcinoma</h3>
 
             <p class="question">
-              <strong>Research focus:</strong>
-              To investigate associations among ENO1-linked metabolic programs, malignant epithelial states, and spatial tumor
-              microenvironment organization in lung adenocarcinoma.
+              <strong>Scientific question:</strong>
+              Is the ENO1-high phenotype a tumor-intrinsic program, or a microenvironmentally sustained and potentially reversible
+              malignant state?
             </p>
 
             <p>
-              This project integrates bulk transcriptomics, survival modeling, WGCNA, single-cell RNA-seq,
-              spatial transcriptomics, pseudotime analysis, CellChat, and RT-qPCR validation to characterize
-              ENO1-associated malignant cell states and their spatial tumor ecosystem.
+              I integrated bulk, single-cell, and spatial transcriptomic data to characterize an ENO1-high malignant epithelial
+              population and examine its relationship with metabolic programs and the surrounding stromal niche.
             </p>
 
             <ul class="clean-list">
-              <li><strong>Methods:</strong> TCGA/GEO analysis, WGCNA, survival modeling, scRNA-seq integration, spatial transcriptomics, CellChat, and RT-qPCR.</li>
-              <li><strong>Key findings:</strong> An ensemble model combining gradient boosting machine and random survival forest prioritized ENO1 for downstream investigation, with 5-year AUCs of 0.763 and 0.789 in two validation cohorts.</li>
-              <li><strong>Biological insight:</strong> ENO1-high epithelial states showed glycolytic, hypoxic, and spatial niche-associated features.</li>
-              <li><strong>Next step:</strong> strengthen malignant-cell inference and validate ENO1-associated mechanisms through functional experiments.</li>
+              <li><strong>Approach:</strong> analysis of 11 single-cell samples comprising more than 33,000 cells, epithelial subclustering, trajectory analysis, spatial deconvolution, cell–cell communication analysis, and targeted RT-qPCR.</li>
+              <li><strong>Observation:</strong> ENO1-high epithelial cells were enriched for glycolytic, hypoxic, and MYC-associated programs and localized within a distinct epithelial–stromal niche.</li>
+              <li><strong>Interpretation:</strong> the spatial restriction suggests that this phenotype may reflect more than a fixed tumor-intrinsic transcriptional program.</li>
+              <li><strong>Unresolved question:</strong> whether lineage context or local nutrient and stromal signals actively stabilize the state, and whether it creates a targetable vulnerability during treatment.</li>
             </ul>
 
             <p class="role">
               <strong>My role:</strong>
-              led study design, computational analysis, biological interpretation, figure development,
-              and manuscript drafting.
+              led study design, computational analysis, biological interpretation, targeted experimental follow-up,
+              figure development, and manuscript drafting.
             </p>
 
           
@@ -138,25 +142,24 @@
         <article class="project featured project-with-image">
           <div class="project-main">
             <p class="status">Published project</p>
-            <h3>TLS-related immunogenetic subtypes in lung adenocarcinoma</h3>
+            <h3>Tertiary lymphoid structure-associated immune ecosystems in lung adenocarcinoma</h3>
 
             <p class="question">
               <strong>Research focus:</strong>
-              To define tertiary lymphoid structure-related molecular subtypes in LUAD and evaluate their prognostic,
-              immunological, and translational significance.
+              To determine whether tertiary lymphoid structure-associated programs identify distinct immune ecosystems in lung
+              adenocarcinoma and whether those ecosystems carry prognostic and translational information.
             </p>
 
             <p>
-              In this study, I constructed an integrated framework combining Mendelian randomization, machine-learning
-              survival modeling, immune microenvironment profiling, tumor mutation burden analysis, single-cell RNA-seq,
-              and RT-qPCR validation to characterize TLS-related heterogeneity in lung adenocarcinoma.
+              I constructed an integrated framework combining genetic evidence, multi-cohort modeling, immune profiling,
+              single-cell analysis, and targeted experimental validation to characterize TLS-related heterogeneity.
             </p>
 
             <ul class="clean-list">
-              <li><strong>Methods:</strong> Mendelian randomization, machine learning, immune infiltration analysis, TMB analysis, scRNA-seq, and RT-qPCR.</li>
-              <li><strong>Key findings:</strong> TLS-related immunogenetic subtypes showed distinct prognostic outcomes and tumor immune landscapes.</li>
-              <li><strong>Biological insight:</strong> TLS-associated features may reflect differences in anti-tumor immunity, immune organization, and clinical risk.</li>
-              <li><strong>Translational value:</strong> the work helped connect immune-structural features with prognostic stratification in LUAD.</li>
+              <li><strong>Scale:</strong> three external cohorts and single-cell analysis of more than 118,000 cells.</li>
+              <li><strong>Observation:</strong> TLS-related subtypes displayed distinct immune landscapes and clinical outcomes.</li>
+              <li><strong>Biological insight:</strong> immune organization, rather than immune-cell abundance alone, may help explain clinically relevant heterogeneity.</li>
+              <li><strong>Training value:</strong> this project established my interest in spatially organized tumor–immune ecosystems.</li>
             </ul>
 
             <p class="role">
@@ -182,12 +185,12 @@
         <article class="project featured project-with-image">
           <div class="project-main">
             <p class="status">Published project</p>
-            <h3>BMP-related mRNA prognostic modeling in clear cell renal cell carcinoma</h3>
+            <h3>BMP-related transcriptional programs in clear cell renal cell carcinoma</h3>
 
             <p class="question">
               <strong>Research focus:</strong>
-              To develop and externally validate a BMP-related prognostic signature in clear cell renal cell carcinoma
-              and explore its association with the tumor microenvironment.
+              To examine whether BMP-related transcriptional programs carry reproducible clinical and microenvironmental
+              information in clear cell renal cell carcinoma.
             </p>
 
             <p>
@@ -197,9 +200,8 @@
 
             <ul class="clean-list">
               <li><strong>Methods:</strong> prognostic modeling, external validation, immune microenvironment analysis, TMB analysis, predicted therapeutic-response analysis, and RT-qPCR.</li>
-              <li><strong>Key findings:</strong> the model showed prognostic value and revealed relationships between BMP-related transcriptional signals and tumor immune features.</li>
-              <li><strong>Biological insight:</strong> this work provided my foundation in translational bioinformatics and clinically relevant biomarker modeling.</li>
-              <li><strong>Training value:</strong> the project strengthened my experience in end-to-end computational workflow development and biological interpretation.</li>
+              <li><strong>Key finding:</strong> BMP-related transcriptional signals were associated with reproducible differences in clinical outcome and tumor immune features.</li>
+              <li><strong>Training value:</strong> this project provided my foundation in external validation, reproducible workflow development, and cautious interpretation of prognostic models.</li>
             </ul>
 
             <p class="role">
@@ -361,27 +363,26 @@
       </div>
     </section>
 
-    <section class="container section reflection" id="reflection">
+    <section class="container section reflection" id="approach">
       <div class="section-heading">
-        <p class="eyebrow">Research maturity</p>
-        <h2>Methodological Reflection</h2>
+        <p class="eyebrow">How I approach research</p>
+        <h2>Principles for Rigorous Computational–Experimental Cancer Research</h2>
       </div>
 
       <p>
-        My previous projects trained me in end-to-end cancer bioinformatics, but also made me aware of the limitations of
-        correlation-driven biomarker discovery. I am particularly interested in improving the rigor of multi-omics studies
-        through better survival-model validation, malignant-cell annotation, spatial-statistical analysis, and experimentally
-        testable computational hypotheses.
+        My previous projects trained me in end-to-end cancer bioinformatics and clarified where descriptive analyses must give
+        way to stronger inference and functional testing. I aim to use computation to define precise biological hypotheses—not
+        as an endpoint—and to evaluate those hypotheses with orthogonal data and experimentally relevant models.
       </p>
 
       <div class="reflection-grid">
         <div>
-          <h3>What I want to improve</h3>
+          <h3>Principles that guide my work</h3>
           <ul>
-            <li>Nested validation and model-selection bias control in survival ML.</li>
-            <li>CNV-based malignant-cell inference in single-cell cancer datasets.</li>
-            <li>Spatial statistics and orthogonal validation for spatial transcriptomics.</li>
-            <li>Careful interpretation of inferred ligand–receptor communication.</li>
+            <li>Use nested validation and explicit bias control when developing prognostic models.</li>
+            <li>Strengthen malignant-cell annotation with CNV-informed and reference-aware approaches.</li>
+            <li>Support spatial observations with spatial statistics and orthogonal validation.</li>
+            <li>Treat inferred ligand–receptor interactions as hypotheses rather than confirmed mechanisms.</li>
           </ul>
         </div>
 
@@ -390,8 +391,8 @@
           <ul>
             <li>Single-cell and spatial omics for tumor microenvironment remodeling.</li>
             <li>Metabolic tumor cell states and immune/stromal interactions.</li>
-            <li>Clinically grounded multi-omics modeling in precision oncology.</li>
-            <li>Computational hypotheses linked to experimental validation.</li>
+            <li>Lineage and treatment context in malignant state transitions.</li>
+            <li>Functional testing of computationally identified dependencies.</li>
           </ul>
         </div>
       </div>
@@ -404,7 +405,9 @@
       </div>
 
       <p>
-        I am preparing applications for Computational Cancer Biology, Bioinformatics, and Biomedical Sciences PhD programs for Fall 2027.
+        I am preparing applications for funded Cancer Biology, Translational Oncology, and Biomedical Sciences PhD programs
+        beginning in 2027. I am particularly interested in groups that connect single-cell or spatial analysis with functional
+        models of cancer cell-state plasticity, metabolism, and treatment response.
       </p>
 
       <div class="contact-links">
